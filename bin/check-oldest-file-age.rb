@@ -16,11 +16,11 @@
 #
 # USAGE:
 #   check-oldest-file-age.rb --dir <folder>
-#                      --warn <age, in seconds, to warn on>
+#                      --warning <age, in seconds, to warn on>
 #                      --critical <age, in seconds, to go CRITICAL on>
 # EXIT CODES
 #  Failure (2) if given folder doesn't exist
-#  Warning (1) if the oldest file older than --warn value but younger than --critical value
+#  Warning (1) if the oldest file older than --warning value but younger than --critical value
 #  Failure (2) if the oldest file older than --critical value
 #  Success (0) if given folder is empty or oldest file is younger tnan --warning value
 # 
